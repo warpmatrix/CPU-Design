@@ -1,0 +1,76 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x433EA599433EA599",
+      "device": "xc7a35tcpg236-1",
+      "name": "LogicAnd",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "xup_and2_0": ""
+    },
+    "ports": {
+      "a_0": {
+        "direction": "I"
+      },
+      "b_0": {
+        "direction": "I"
+      },
+      "y_0": {
+        "direction": "O"
+      },
+      "InDig1": {
+        "direction": "I"
+      },
+      "DigOut1": {
+        "direction": "O"
+      },
+      "testIn": {
+        "direction": "I"
+      },
+      "testOut": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "xup_and2_0": {
+        "vlnv": "xilinx.com:xup:xup_and2:1.0",
+        "xci_name": "LogicAnd_xup_and2_0_0"
+      }
+    },
+    "nets": {
+      "a_0_1": {
+        "ports": [
+          "a_0",
+          "xup_and2_0/a"
+        ]
+      },
+      "InDig1_1": {
+        "ports": [
+          "InDig1",
+          "DigOut1"
+        ]
+      },
+      "b_0_1": {
+        "ports": [
+          "b_0",
+          "xup_and2_0/b"
+        ]
+      },
+      "xup_and2_0_y": {
+        "ports": [
+          "xup_and2_0/y",
+          "y_0"
+        ]
+      },
+      "testIn_1": {
+        "ports": [
+          "testIn",
+          "testOut"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1294 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Apr 14 20:47:23 2019" VIVADOVERSION="2018.3">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a35t" NAME="BCDto7Seg" PACKAGE="cpg236" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="DigIn1" SIGIS="undef" SIGNAME="External_Ports_DigIn1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="External_Ports" PORT="DigOut1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="DigIn2" SIGIS="undef" SIGNAME="External_Ports_DigIn2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="External_Ports" PORT="DigOut2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="DigIn3" SIGIS="undef" SIGNAME="External_Ports_DigIn3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="External_Ports" PORT="DigOut3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="DigIn4" SIGIS="undef" SIGNAME="External_Ports_DigIn4">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="External_Ports" PORT="DigOut4"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="DigOut1" SIGIS="undef" SIGNAME="External_Ports_DigIn1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="External_Ports" PORT="DigIn1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="DigOut2" SIGIS="undef" SIGNAME="External_Ports_DigIn2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="External_Ports" PORT="DigIn2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="DigOut3" SIGIS="undef" SIGNAME="External_Ports_DigIn3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="External_Ports" PORT="DigIn3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="DigOut4" SIGIS="undef" SIGNAME="External_Ports_DigIn4">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="External_Ports" PORT="DigIn4"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="BCD8" SIGIS="undef" SIGNAME="External_Ports_BCD8">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="BCD8_INV" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and3_1" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and3_3" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and3_4" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and3_5" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and3_6" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and4_4" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and4_5" PORT="a"/>
+        <CONNECTION INSTANCE="D7_CA1" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and4_7" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="BCD4" SIGIS="undef" SIGNAME="External_Ports_BCD4">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xup_and4_5" PORT="b"/>
+        <CONNECTION INSTANCE="BCD4_INV" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and4_0" PORT="b"/>
+        <CONNECTION INSTANCE="xup_and3_2" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and3_3" PORT="b"/>
+        <CONNECTION INSTANCE="xup_and3_5" PORT="b"/>
+        <CONNECTION INSTANCE="xup_and3_6" PORT="b"/>
+        <CONNECTION INSTANCE="xup_and4_3" PORT="b"/>
+        <CONNECTION INSTANCE="xup_and3_7" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and3_8" PORT="b"/>
+        <CONNECTION INSTANCE="D7_CA1" PORT="b"/>
+        <CONNECTION INSTANCE="xup_and4_6" PORT="b"/>
+        <CONNECTION INSTANCE="xup_and4_7" PORT="b"/>
+        <CONNECTION INSTANCE="xup_xor2_0" PORT="a"/>
+        <CONNECTION INSTANCE="xup_xor2_1" PORT="b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="BCD2" SIGIS="undef" SIGNAME="External_Ports_BCD2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="BCD2_INV" PORT="a"/>
+        <CONNECTION INSTANCE="xup_and3_2" PORT="b"/>
+        <CONNECTION INSTANCE="xup_and3_4" PORT="b"/>
+        <CONNECTION INSTANCE="xup_and3_6" PORT="c"/>
+        <CONNECTION INSTANCE="xup_and4_1" PORT="c"/>
+        <CONNECTION INSTANCE="xup_and3_7" PORT="b"/>
+        <CONNECTION INSTANCE="xup_and4_4" PORT="c"/>
+        <CONNECTION INSTANCE="xup_and3_11" PORT="c"/>
+        <CONNECTION INSTANCE="xup_and3_12" PORT="b"/>
+        <CONNECTION INSTANCE="xup_xor2_1" PORT="a"/>
+        <CONNECTION INSTANCE="D7_CA1" PORT="c"/>
+        <CONNECTION INSTANCE="xup_and4_6" PORT="c"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="BCD1" SIGIS="undef" SIGNAME="External_Ports_BCD1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="BCD1_INV" PORT="a"/>
+        <CONNECTION INSTANCE="xup_xor2_0" PORT="b"/>
+        <CONNECTION INSTANCE="xup_and3_1" PORT="b"/>
+        <CONNECTION INSTANCE="xup_and4_0" PORT="d"/>
+        <CONNECTION INSTANCE="xup_and3_4" PORT="c"/>
+        <CONNECTION INSTANCE="xup_and4_2" PORT="d"/>
+        <CONNECTION INSTANCE="xup_and3_7" PORT="c"/>
+        <CONNECTION INSTANCE="xup_and3_9" PORT="c"/>
+        <CONNECTION INSTANCE="xup_and2_0" PORT="b"/>
+        <CONNECTION INSTANCE="xup_and3_10" PORT="c"/>
+        <CONNECTION INSTANCE="xup_and3_12" PORT="c"/>
+        <CONNECTION INSTANCE="xup_and4_5" PORT="d"/>
+        <CONNECTION INSTANCE="xup_and4_6" PORT="d"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="D1" SIGIS="undef" SIGNAME="xup_or2_0_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xup_or2_0" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="D2" SIGIS="undef" SIGNAME="xup_or4_2_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xup_or4_2" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="D3" SIGIS="undef" SIGNAME="xup_or3_2_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xup_or3_2" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="D4" SIGIS="undef" SIGNAME="xup_or4_1_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xup_or4_1" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="D5" SIGIS="undef" SIGNAME="xup_or3_0_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xup_or3_0" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="D6" SIGIS="undef" SIGNAME="xup_or4_0_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xup_or4_0" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="D7" SIGIS="undef" SIGNAME="xup_or3_1_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xup_or3_1" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/BCD1_INV" HWVERSION="1.0" INSTANCE="BCD1_INV" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_inv_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_BCD1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="BCD1_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_2" PORT="c"/>
+            <CONNECTION INSTANCE="xup_and3_3" PORT="c"/>
+            <CONNECTION INSTANCE="xup_and3_5" PORT="c"/>
+            <CONNECTION INSTANCE="xup_and4_1" PORT="d"/>
+            <CONNECTION INSTANCE="xup_and4_3" PORT="d"/>
+            <CONNECTION INSTANCE="xup_and4_4" PORT="d"/>
+            <CONNECTION INSTANCE="xup_and4_7" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/BCD2_INV" HWVERSION="1.0" INSTANCE="BCD2_INV" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_BCD1_INV_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_BCD2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="BCD2_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_0" PORT="b"/>
+            <CONNECTION INSTANCE="xup_and4_0" PORT="c"/>
+            <CONNECTION INSTANCE="xup_and4_2" PORT="c"/>
+            <CONNECTION INSTANCE="xup_and4_3" PORT="c"/>
+            <CONNECTION INSTANCE="xup_and3_8" PORT="c"/>
+            <CONNECTION INSTANCE="xup_and3_9" PORT="b"/>
+            <CONNECTION INSTANCE="xup_and4_5" PORT="c"/>
+            <CONNECTION INSTANCE="xup_and4_7" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/BCD4_INV" HWVERSION="1.0" INSTANCE="BCD4_INV" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_BCD2_INV_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_BCD4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="BCD4_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and4_1" PORT="b"/>
+            <CONNECTION INSTANCE="xup_and4_2" PORT="b"/>
+            <CONNECTION INSTANCE="xup_and4_4" PORT="b"/>
+            <CONNECTION INSTANCE="xup_and3_9" PORT="a"/>
+            <CONNECTION INSTANCE="xup_and3_10" PORT="b"/>
+            <CONNECTION INSTANCE="xup_and3_11" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/BCD8_INV" HWVERSION="1.0" INSTANCE="BCD8_INV" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_BCD2_INV1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_BCD8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="BCD8_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_0" PORT="a"/>
+            <CONNECTION INSTANCE="xup_and4_0" PORT="a"/>
+            <CONNECTION INSTANCE="xup_and4_1" PORT="a"/>
+            <CONNECTION INSTANCE="xup_and4_2" PORT="a"/>
+            <CONNECTION INSTANCE="xup_and4_3" PORT="a"/>
+            <CONNECTION INSTANCE="xup_and3_8" PORT="a"/>
+            <CONNECTION INSTANCE="xup_and2_0" PORT="a"/>
+            <CONNECTION INSTANCE="xup_and3_10" PORT="a"/>
+            <CONNECTION INSTANCE="xup_and3_11" PORT="a"/>
+            <CONNECTION INSTANCE="xup_and3_12" PORT="a"/>
+            <CONNECTION INSTANCE="xup_and4_6" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/D7_CA1" HWVERSION="1.0" INSTANCE="D7_CA1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_nor3" VLNV="xilinx.com:xup:xup_nor3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_D7_CA_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_BCD8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_BCD4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="External_Ports_BCD2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="D7_CA1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or3_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and2_0" HWVERSION="1.0" INSTANCE="xup_and2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_and2_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="BCD8_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD8_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_BCD1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or3_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and3_0" HWVERSION="1.0" INSTANCE="xup_and3_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_and3_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="BCD8_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD8_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="BCD2_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD2_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="xup_xor2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_xor2_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and3_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or2_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and3_1" HWVERSION="1.0" INSTANCE="xup_and3_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_and3_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_BCD8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_BCD1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="xup_xor2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_xor2_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and3_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or2_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and3_10" HWVERSION="1.0" INSTANCE="xup_and3_10" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_and3_10_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="BCD8_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD8_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="BCD4_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD4_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="External_Ports_BCD1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and3_10_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and3_11" HWVERSION="1.0" INSTANCE="xup_and3_11" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_and3_11_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="BCD8_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD8_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="BCD4_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD4_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="External_Ports_BCD2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and3_11_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and3_12" HWVERSION="1.0" INSTANCE="xup_and3_12" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_and3_12_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="BCD8_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD8_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_BCD2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="External_Ports_BCD1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and3_12_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and3_2" HWVERSION="1.0" INSTANCE="xup_and3_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_and3_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_BCD4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_BCD2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="BCD1_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD1_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and3_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_2" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and3_3" HWVERSION="1.0" INSTANCE="xup_and3_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_and3_3_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_BCD8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_BCD4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="BCD1_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD1_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and3_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_2" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and3_4" HWVERSION="1.0" INSTANCE="xup_and3_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_and3_4_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_BCD8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_BCD2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="External_Ports_BCD1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and3_4_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_2" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and3_5" HWVERSION="1.0" INSTANCE="xup_and3_5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_and3_5_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_BCD8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_BCD4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="BCD1_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD1_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and3_5_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or3_2" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and3_6" HWVERSION="1.0" INSTANCE="xup_and3_6" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_and3_6_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_BCD8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_BCD4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="External_Ports_BCD2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and3_6_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or3_2" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and3_7" HWVERSION="1.0" INSTANCE="xup_and3_7" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_and3_7_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_BCD4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_BCD2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="External_Ports_BCD1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and3_7_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_1" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and3_8" HWVERSION="1.0" INSTANCE="xup_and3_8" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_and3_8_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="BCD8_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD8_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_BCD4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="BCD2_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD2_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and3_8_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or3_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and3_9" HWVERSION="1.0" INSTANCE="xup_and3_9" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_and3_9_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="BCD4_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD4_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="BCD2_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD2_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="External_Ports_BCD1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and3_9_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or3_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and4_0" HWVERSION="1.0" INSTANCE="xup_and4_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_and4_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="BCD8_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD8_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_BCD4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="BCD2_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD2_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="External_Ports_BCD1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and4_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_2" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and4_1" HWVERSION="1.0" INSTANCE="xup_and4_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_and4_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="BCD8_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD8_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="BCD4_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD4_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="External_Ports_BCD2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="BCD1_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD1_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and4_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or3_2" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and4_2" HWVERSION="1.0" INSTANCE="xup_and4_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_and4_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="BCD8_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD8_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="BCD4_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD4_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="BCD2_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD2_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="External_Ports_BCD1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and4_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and4_3" HWVERSION="1.0" INSTANCE="xup_and4_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_and4_3_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="BCD8_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD8_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_BCD4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="BCD2_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD2_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="BCD1_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD1_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and4_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and4_4" HWVERSION="1.0" INSTANCE="xup_and4_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_and4_4_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_BCD8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="BCD4_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD4_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="External_Ports_BCD2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="BCD1_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD1_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and4_4_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_1" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and4_5" HWVERSION="1.0" INSTANCE="xup_and4_5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_and4_5_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_BCD8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_BCD4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="BCD2_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD2_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="External_Ports_BCD1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and4_5_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or4_0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and4_6" HWVERSION="1.0" INSTANCE="xup_and4_6" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_and4_6_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="BCD8_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD8_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_BCD4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="External_Ports_BCD2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="External_Ports_BCD1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and4_6_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or3_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_and4_7" HWVERSION="1.0" INSTANCE="xup_and4_7" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_and4_7_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_BCD8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_BCD4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="BCD2_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD2_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="BCD1_INV_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="BCD1_INV" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and4_7_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_or3_1" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_or2_0" HWVERSION="1.0" INSTANCE="xup_or2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or2" VLNV="xilinx.com:xup:xup_or2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_or2_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_and3_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_and3_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_or3_0" HWVERSION="1.0" INSTANCE="xup_or3_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or3" VLNV="xilinx.com:xup:xup_or3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_or3_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_and3_8_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_8" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_and3_9_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_9" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="xup_and2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and2_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or3_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D5"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_or3_1" HWVERSION="1.0" INSTANCE="xup_or3_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or3" VLNV="xilinx.com:xup:xup_or3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_or3_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="D7_CA1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="D7_CA1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_and4_6_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and4_6" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="xup_and4_7_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and4_7" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or3_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D7"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_or3_2" HWVERSION="1.0" INSTANCE="xup_or3_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or3" VLNV="xilinx.com:xup:xup_or3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_or3_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_and3_5_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_5" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_and3_6_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_6" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="xup_and4_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and4_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or3_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_or4_0" HWVERSION="1.0" INSTANCE="xup_or4_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or4" VLNV="xilinx.com:xup:xup_or4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_or4_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_and3_10_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_10" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_and3_11_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_11" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="xup_and3_12_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_12" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="xup_and4_5_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and4_5" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or4_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D6"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_or4_1" HWVERSION="1.0" INSTANCE="xup_or4_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or4" VLNV="xilinx.com:xup:xup_or4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_or4_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_and4_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and4_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_and4_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and4_3" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="xup_and3_7_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_7" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="xup_and4_4_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and4_4" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or4_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D4"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_or4_2" HWVERSION="1.0" INSTANCE="xup_or4_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or4" VLNV="xilinx.com:xup:xup_or4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_or4_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_and4_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and4_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_and3_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="xup_and3_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_3" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="xup_and3_4_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_4" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or4_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_xor2_0" HWVERSION="1.0" INSTANCE="xup_xor2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_xor2" VLNV="xilinx.com:xup:xup_xor2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_xor2_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_BCD4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_BCD1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_xor2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_xor2_1" HWVERSION="1.0" INSTANCE="xup_xor2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_xor2" VLNV="xilinx.com:xup:xup_xor2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="BCDto7Seg_xup_xor2_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_BCD2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_BCD4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BCD4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_xor2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_and3_1" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

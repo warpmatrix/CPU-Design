@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sat Jun  8 13:33:40 2019" VIVADOVERSION="2018.3">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a35t" NAME="Full_Adder" PACKAGE="cpg236" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="C" SIGIS="undef" SIGNAME="External_Ports_C">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="decode138_0" PORT="A2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="A" SIGIS="undef" SIGNAME="External_Ports_A">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="decode138_0" PORT="A0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="B" SIGIS="undef" SIGNAME="External_Ports_B">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="decode138_0" PORT="A1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Sum" SIGIS="undef" SIGNAME="xup_nand4_0_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xup_nand4_0" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Carry" SIGIS="undef" SIGNAME="xup_nand4_1_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="xup_nand4_1" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="5" FULLNAME="/High" HWVERSION="1.1" INSTANCE="High" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="CONST_VAL" VALUE="0x1"/>
+        <PARAMETER NAME="Component_Name" VALUE="Full_Adder_xlconstant_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="High_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="decode138_0" PORT="E1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="5" FULLNAME="/Low" HWVERSION="1.1" INSTANCE="Low" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="CONST_VAL" VALUE="0x0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Full_Adder_xlconstant_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="Low_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="decode138_0" PORT="E2_n"/>
+            <CONNECTION INSTANCE="decode138_0" PORT="E3_n"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/decode138_0" HWVERSION="1.0" INSTANCE="decode138_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="decode138" VLNV="xilinx.com:XUP:decode138:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="Full_Adder_decode138_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A0" SIGIS="undef" SIGNAME="External_Ports_A">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="External_Ports_B">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="External_Ports_C">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="C"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="E1" SIGIS="undef" SIGNAME="High_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="High" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="E2_n" SIGIS="undef" SIGNAME="Low_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Low" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="E3_n" SIGIS="undef" SIGNAME="Low_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Low" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y0_n" SIGIS="undef"/>
+        <PORT DIR="O" NAME="Y1_n" SIGIS="undef" SIGNAME="decode138_0_Y1_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_nand4_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y2_n" SIGIS="undef" SIGNAME="decode138_0_Y2_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_nand4_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y3_n" SIGIS="undef" SIGNAME="decode138_0_Y3_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_nand4_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y4_n" SIGIS="undef" SIGNAME="decode138_0_Y4_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_nand4_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y5_n" SIGIS="undef" SIGNAME="decode138_0_Y5_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_nand4_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y6_n" SIGIS="undef" SIGNAME="decode138_0_Y6_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_nand4_1" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Y7_n" SIGIS="undef" SIGNAME="decode138_0_Y7_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_nand4_1" PORT="d"/>
+            <CONNECTION INSTANCE="xup_nand4_0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_nand4_0" HWVERSION="1.0" INSTANCE="xup_nand4_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_nand4" VLNV="xilinx.com:xup:xup_nand4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="Full_Adder_xup_nand4_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="decode138_0_Y1_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="decode138_0" PORT="Y1_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="decode138_0_Y2_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="decode138_0" PORT="Y2_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="decode138_0_Y4_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="decode138_0" PORT="Y4_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="decode138_0_Y7_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="decode138_0" PORT="Y7_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_nand4_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Sum"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xup_nand4_1" HWVERSION="1.0" INSTANCE="xup_nand4_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_nand4" VLNV="xilinx.com:xup:xup_nand4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="Full_Adder_xup_nand4_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="decode138_0_Y3_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="decode138_0" PORT="Y3_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="decode138_0_Y5_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="decode138_0" PORT="Y5_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="decode138_0_Y6_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="decode138_0" PORT="Y6_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="decode138_0_Y7_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="decode138_0" PORT="Y7_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_nand4_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Carry"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>
